@@ -1,0 +1,33 @@
+Feb 22, 2006
+ * leveleditor - fixed the snap-to-grid bug
+
+Feb 20, 2006
+ * leveleditor - refactored into 3 separate classes that will hopefully 
+                 be easier to integrate into the main.py loop when a user 
+                 clicks on the screen
+ * leveleditor - discovered a bug in the snap to grid feature. it doesn't
+                 actually snap to grid when you let go of the mousebutton
+
+
+Feb 19, 2006
+ * leveleditor - fixed a bug with the event firing system
+ * leveleditor - fixed "dragging nothing" bug
+ * leveleditor - added a "snap to grid" feature
+ * leveleditor - added a green rect that shows you where the dragged object
+                 will end up - very handy when the game is paused
+
+Feb 6, 2006
+ * leveleditor - now you can actually *drag* things with the drag&drop
+ * game - added coins
+ * AnimatedWidget - made it more generic
+
+Aug 21
+ * added blendable weapons
+ * added the keyboard keys screen
+ * added the event firing due to powerup - to communicate with the HUD
+ * added a logger
+
+July 21
+ * Fixed the bug where glarf dies if he goes off the top or sides of the screen
+ * now checks with the level if he HasEnteredIntoKillzone
+
